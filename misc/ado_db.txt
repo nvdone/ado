@@ -1,0 +1,7 @@
+// NVD Alter Database Objects
+// (C) 2015, Nikolay Dudkin
+// Format:
+// DatabaseName<CR><LF>
+
+database1
+database2

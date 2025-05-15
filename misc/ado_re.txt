@@ -1,0 +1,8 @@
+// NVD Alter Database Objects
+// (C) 2015, Nikolay Dudkin
+// Format:
+// ObjectNameRegExp<TAB>ObjectDefinitionRegExp[<TAB>ObjectDefinitionReplacement]<CR><LF>
+
+.*	OPENQUERY\s*\(\s*\w+\s*,\s*['"]\s*(.+)['"]\)	($1)
+.*	(?i)server1\.
+.*	(?i)database\d+\.dbo\.	database1.dbo.
